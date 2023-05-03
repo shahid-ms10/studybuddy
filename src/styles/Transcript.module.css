@@ -1,0 +1,137 @@
+.transcript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 10% 0 5% 0;
+}
+
+.subhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subhome input{
+    width: 60vw;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.subhome button{
+    width: 200px;
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.subhome button:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}
+
+.option{
+    margin-bottom: 5%;
+}
+
+.option select{
+    height: 50px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.option input{
+    width: 46.3vw;
+}
+
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.history_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.tcard{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.tid{
+    height: 140px;
+    background-color: rgb(39, 31, 224);
+    color: wheat;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    border-radius:10px 10px 0px 0;
+}
+
+.tbody{
+    padding: 5%;
+}
+
+.details{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.add_notes{
+    /* width: 200px; */
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.add_notes:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}
+
+.history_section a{
+    text-decoration: none;
+}

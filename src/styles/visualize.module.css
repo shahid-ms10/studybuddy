@@ -1,0 +1,57 @@
+.visualize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.body img{
+    width: 30vw;
+}
+
+.body h1{
+    margin-bottom: 10px;
+}
+.body h6{
+    margin-bottom: 10px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_button{
+    width: 200px;
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home_button:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}
+
+.solver_div{
+    display: flex;
+    flex-direction: row;
+}

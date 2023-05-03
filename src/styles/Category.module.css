@@ -1,0 +1,66 @@
+.category{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.category p{
+    font-size: 20px;
+}
+.subcat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subcat a{
+    text-decoration: none;
+    margin: 3%;
+}
+
+.cat{
+    width: 200px;
+    /* margin: 20%; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    border:  solid 2px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: rgb(39, 31, 224);
+}
+
+.purple{
+    background-color: purple;
+}
+
+.cat:hover{
+    outline: none;
+    background: transparent;
+}
+
+.red:hover{
+    border: solid 2px red;
+    color: red;
+}
+
+.blue:hover{
+    border: solid 2px rgb(39, 31, 224);
+    color: rgb(39, 31, 224);
+}
+
+.purple:hover{
+    border: solid 2px purple;
+    color: purple;
+}
+

@@ -1,0 +1,44 @@
+.rcard{
+    width: 300px;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    padding: 5%;
+}
+
+.rcard h4{
+    padding: 5%;
+}
+
+.recc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

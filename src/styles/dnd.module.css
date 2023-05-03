@@ -1,0 +1,56 @@
+.dnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.dnd p{
+    margin-top: 30px;
+    color: red;
+}
+
+.dnd button{
+    width: 150px;
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 200px;
+}
+
+.dnd button:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}
+
+.fscreen{
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fscreen .time{
+    color: black;
+    font-size: 70px;
+}

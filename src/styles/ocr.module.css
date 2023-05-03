@@ -1,0 +1,26 @@
+.ocr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.ocr_button{
+    width: 150px;
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

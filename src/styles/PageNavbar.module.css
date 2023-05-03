@@ -1,0 +1,40 @@
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+.subnav a {
+    text-decoration: none;
+    color: red
+}
+.login_button{
+    width: 150px;
+    margin: 15px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login_button:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}
